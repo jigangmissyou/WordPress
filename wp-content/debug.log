@@ -238,3 +238,631 @@ Stack trace:
 #11 /var/www/html/index.php(17): require('/var/www/html/w...')
 #12 {main}
   thrown in /var/www/html/wp-includes/class-wp-hook.php on line 308
+[24-Nov-2023 08:28:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(10)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 10, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('post', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:31:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(11)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 11, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('post', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:31:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(12)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 12, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('post', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:31:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(13)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 13, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('post', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:31:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(14)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 14, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('post', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:34:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(20)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 20, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:36:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PropertyController::registerWatchlistRoutes() in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyController->registerRestRoutes(Object(WP_REST_Server))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/html/wp-includes/rest-api.php(535): rest_get_server()
+#5 /var/www/html/wp-includes/rest-api.php(2889): rest_do_request(Object(WP_REST_Request))
+#6 [internal function]: rest_preload_api_request(Array, '/wp/v2/types?co...')
+#7 /var/www/html/wp-includes/block-editor.php(634): array_reduce(Array, 'rest_preload_ap...', Array)
+#8 /var/www/html/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#9 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#10 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php on line 21
+[24-Nov-2023 08:36:48 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/add-to-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:36:48 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-user-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:36:48 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/cancle-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:36:48 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-news</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:36:48 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-picture</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:36:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:5865) in /var/www/html/wp-admin/admin-header.php on line 9
+[24-Nov-2023 08:36:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:37:10 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/add-to-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:37:10 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-user-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:37:10 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/cancle-watchlist</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:37:10 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-news</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:37:10 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>tradehouse/v1/get-picture</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 5865
+[24-Nov-2023 08:37:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:5865) in /var/www/html/wp-admin/admin-header.php on line 9
+[24-Nov-2023 08:37:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:39:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:40:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(25)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 25, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:40:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(26)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 26, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:40:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(27)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 27, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:46:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::save_custom_fields(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:127
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(28)
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 28, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 127
+[24-Nov-2023 08:47:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:47:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post.php(187): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:47:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post.php(187): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:48:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:49:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:49:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:50:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:53:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:53:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post.php(187): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:56:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:57:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 08:57:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:00:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(43, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 43, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:00:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(44, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 44, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:01:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(45, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 45, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:01:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(46, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 46, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:01:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(47, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 47, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:01:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(48, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 48, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:01:03 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:144
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(49, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 49, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 144
+[24-Nov-2023 09:02:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:149
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(50, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 50, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 149
+[24-Nov-2023 09:02:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:149
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(51, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 51, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 149
+[24-Nov-2023 09:02:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:149
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(52, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 52, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 149
+[24-Nov-2023 09:02:26 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:149
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(53, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 53, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 149
+[24-Nov-2023 09:02:26 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:149
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): PropertyModel->save_custom_fields(54, Object(WP_Post))
+#1 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(4715): do_action('save_post', 54, Object(WP_Post), false)
+#4 /var/www/html/wp-admin/includes/post.php(720): wp_insert_post(Array, false, false)
+#5 /var/www/html/wp-admin/post-new.php(66): get_default_post_to_edit('housing_rent', true)
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 149
+[24-Nov-2023 09:02:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:02:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:03:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:128) in /var/www/html/wp-content/plugins/jwt-auth/class-auth.php on line 98
+[24-Nov-2023 09:03:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:128) in /var/www/html/wp-admin/admin-header.php on line 9
+[24-Nov-2023 09:03:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:03:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:128) in /var/www/html/wp-content/plugins/jwt-auth/class-auth.php on line 98
+[24-Nov-2023 09:03:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:128) in /var/www/html/wp-admin/admin-header.php on line 9
+[24-Nov-2023 09:03:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:05:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:06:50 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:08:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:08:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:09:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:10:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/post-new.php(10): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:10:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/post-new.php(10): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/post-new.php(10): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:10:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:72
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php(68): PropertyModel->custom_fields()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): PropertyModel->register_post_type('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(623): do_action('init')
+#5 /var/www/html/wp-config.php(131): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 72
+[24-Nov-2023 09:11:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:11:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:15:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:18:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:18:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[24-Nov-2023 09:18:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:71) in /var/www/html/wp-admin/admin-header.php on line 9
+[24-Nov-2023 09:18:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "tradehouse_render_custom_fields" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1445
+Stack trace:
+#0 /var/www/html/wp-admin/includes/post.php(2267): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/edit-form-blocks.php(316): the_block_editor_meta_boxes()
+#2 /var/www/html/wp-admin/post-new.php(72): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-admin/includes/template.php on line 1445
+[04-Dec-2023 17:51:12 UTC] PHP Parse error:  Unclosed '{' on line 2 does not match ')' in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 260
+[04-Dec-2023 20:04:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::getHousingRentPosts(), 0 passed in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php on line 117 and exactly 1 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:260
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php(117): PropertyModel->getHousingRentPosts()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1181): PropertyController->getRentingHouse(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/tradehouse/v1/...', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/tradehouse/v1/...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 260
+[04-Dec-2023 20:05:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PropertyModel::getHousingRentPosts(), 0 passed in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php on line 117 and exactly 1 expected in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:260
+Stack trace:
+#0 /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php(117): PropertyModel->getHousingRentPosts()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1181): PropertyController->getRentingHouse(Object(WP_REST_Request))
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/tradehouse/v1/...', Array, NULL)
+#3 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/tradehouse/v1/...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/html/wp-blog-header.php(16): wp()
+#12 /var/www/html/index.php(17): require('/var/www/html/w...')
+#13 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 260
+[04-Dec-2023 20:06:08 UTC] PHP Parse error:  syntax error, unexpected token "," in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 279
+[04-Dec-2023 20:06:27 UTC] PHP Warning:  Undefined variable $region in /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php on line 284
+[04-Dec-2023 20:06:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/tradehouse/models/PropertyModel.php:284) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1762
+[05-Dec-2023 03:20:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_category_hierarchy() in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php:152
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1181): PropertyController->get_category_hierarchy(Object(WP_REST_Request))
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/tradehouse/v1/...', Array, NULL)
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /var/www/html/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/tradehouse/v1/...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /var/www/html/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /var/www/html/wp-includes/functions.php(1334): WP->main('')
+#10 /var/www/html/wp-blog-header.php(16): wp()
+#11 /var/www/html/index.php(17): require('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/plugins/tradehouse/controllers/PropertyController.php on line 152
